@@ -1,9 +1,9 @@
 class LeadsWorker
-  include Sidekiq::worker
+  include Sidekiq::Worker
 
   def perform(leads_file)
 
   end
 
-  
+
 end
